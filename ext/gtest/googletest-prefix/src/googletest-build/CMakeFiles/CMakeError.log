@@ -1,0 +1,118 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bffe/fast"
+make[3]: Entering directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1bffe.dir/build.make CMakeFiles/cmTC_1bffe.dir/build
+make[4]: Entering directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bffe.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1bffe.dir/CheckSymbolExists.c.o   -c /home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1bffe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bffe.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1bffe.dir/CheckSymbolExists.c.o  -o cmTC_1bffe -rdynamic 
+CMakeFiles/cmTC_1bffe.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1bffe.dir/build.make:97: recipe for target 'cmTC_1bffe' failed
+make[4]: *** [cmTC_1bffe] Error 1
+make[4]: Leaving directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1bffe/fast' failed
+make[3]: *** [cmTC_1bffe/fast] Error 2
+make[3]: Leaving directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+
+File /home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42fbb/fast"
+make[3]: Entering directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_42fbb.dir/build.make CMakeFiles/cmTC_42fbb.dir/build
+make[4]: Entering directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42fbb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_42fbb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_42fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42fbb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_42fbb.dir/CheckFunctionExists.c.o  -o cmTC_42fbb -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_42fbb.dir/build.make:97: recipe for target 'cmTC_42fbb' failed
+make[4]: *** [cmTC_42fbb] Error 1
+make[4]: Leaving directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_42fbb/fast' failed
+make[3]: *** [cmTC_42fbb/fast] Error 2
+make[3]: Leaving directory '/home/bart/dev/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79639/fast"
+make[3]: Entering directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_79639.dir/build.make CMakeFiles/cmTC_79639.dir/build
+make[4]: Entering directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79639.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_79639.dir/CheckSymbolExists.c.o   -c /home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_79639
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79639.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_79639.dir/CheckSymbolExists.c.o  -o cmTC_79639 -rdynamic 
+CMakeFiles/cmTC_79639.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_79639.dir/build.make:97: recipe for target 'cmTC_79639' failed
+make[4]: *** [cmTC_79639] Error 1
+make[4]: Leaving directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_79639/fast' failed
+make[3]: *** [cmTC_79639/fast] Error 2
+make[3]: Leaving directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+
+File /home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef609/fast"
+make[3]: Entering directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ef609.dir/build.make CMakeFiles/cmTC_ef609.dir/build
+make[4]: Entering directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef609.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ef609.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef609.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ef609.dir/CheckFunctionExists.c.o  -o cmTC_ef609 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ef609.dir/build.make:97: recipe for target 'cmTC_ef609' failed
+make[4]: *** [cmTC_ef609] Error 1
+make[4]: Leaving directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ef609/fast' failed
+make[3]: *** [cmTC_ef609/fast] Error 2
+make[3]: Leaving directory '/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
+
+

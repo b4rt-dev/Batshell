@@ -1,0 +1,8 @@
+/home/bart/shell/CMakeFiles/edit_cache.dir
+/home/bart/shell/CMakeFiles/shelllib.dir
+/home/bart/shell/CMakeFiles/rebuild_cache.dir
+/home/bart/shell/CMakeFiles/shell.dir
+/home/bart/shell/CMakeFiles/shelltest.dir
+/home/bart/shell/ext/gtest/CMakeFiles/edit_cache.dir
+/home/bart/shell/ext/gtest/CMakeFiles/rebuild_cache.dir
+/home/bart/shell/ext/gtest/CMakeFiles/googletest.dir

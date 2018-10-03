@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bart/shell/shell.cpp
+iostream
+-
+unistd.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+sys/param.h
+-
+signal.h
+-
+string.h
+-
+sys/types.h
+-
+pwd.h
+-
+signal.h
+-
+vector
+-
+fcntl.h
+-
+algorithm
+-
+

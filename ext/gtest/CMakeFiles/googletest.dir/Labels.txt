@@ -1,0 +1,13 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/bart/shell/ext/gtest/CMakeFiles/googletest
+/home/bart/shell/ext/gtest/CMakeFiles/googletest.rule
+/home/bart/shell/ext/gtest/CMakeFiles/googletest-complete.rule
+/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/bart/shell/ext/gtest/googletest-prefix/src/googletest-stamp/googletest-build.rule
