@@ -23,6 +23,7 @@
 #include <vector>
 #include <fcntl.h>
 #include <algorithm>
+#include <fstream>
 
 // increase readability for pipes
 #define READ  0
@@ -597,6 +598,10 @@ int shell(bool showPrompt)
     {
         // user input
         string commandLine = requestCommandLine(showPrompt);
+
+        ofstream outfile;
+        outfile.open("~/.bathistory", ios_base::app);
+        outfile << commandLine + '\n';
 
         if (commandLine == "exit")
         {
